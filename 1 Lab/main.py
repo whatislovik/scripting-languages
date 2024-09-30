@@ -44,7 +44,6 @@ def update_post(post_id):
     print(json.dumps(updated_post_response, indent=4))
 
 
-
 if __name__ == "__main__":
     get_even_posts()
     create_post()
